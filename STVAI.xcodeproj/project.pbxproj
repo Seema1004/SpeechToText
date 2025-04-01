@@ -24,18 +24,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F13BF0842D9A81A200B02A04 /* SpeechConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeechConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F13BF09A2D9A81A400B02A04 /* SpeechConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeechConverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F13BF0A42D9A81A400B02A04 /* SpeechConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeechConverterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F13BF0842D9A81A200B02A04 /* STVAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STVAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F13BF09A2D9A81A400B02A04 /* STVAITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STVAITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F13BF0A42D9A81A400B02A04 /* STVAIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STVAIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		F13BF0AC2D9A81A400B02A04 /* Exceptions for "SpeechConverter" folder in "SpeechConverter" target */ = {
+		F13BF0AC2D9A81A400B02A04 /* Exceptions for "SpeechConverter" folder in "STVAI" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = F13BF0832D9A81A200B02A04 /* SpeechConverter */;
+			target = F13BF0832D9A81A200B02A04 /* STVAI */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -43,7 +43,7 @@
 		F13BF0862D9A81A200B02A04 /* SpeechConverter */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				F13BF0AC2D9A81A400B02A04 /* Exceptions for "SpeechConverter" folder in "SpeechConverter" target */,
+				F13BF0AC2D9A81A400B02A04 /* Exceptions for "SpeechConverter" folder in "STVAI" target */,
 			);
 			path = SpeechConverter;
 			sourceTree = "<group>";
@@ -98,9 +98,9 @@
 		F13BF0852D9A81A200B02A04 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F13BF0842D9A81A200B02A04 /* SpeechConverter.app */,
-				F13BF09A2D9A81A400B02A04 /* SpeechConverterTests.xctest */,
-				F13BF0A42D9A81A400B02A04 /* SpeechConverterUITests.xctest */,
+				F13BF0842D9A81A200B02A04 /* STVAI.app */,
+				F13BF09A2D9A81A400B02A04 /* STVAITests.xctest */,
+				F13BF0A42D9A81A400B02A04 /* STVAIUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,9 +108,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F13BF0832D9A81A200B02A04 /* SpeechConverter */ = {
+		F13BF0832D9A81A200B02A04 /* STVAI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F13BF0AD2D9A81A400B02A04 /* Build configuration list for PBXNativeTarget "SpeechConverter" */;
+			buildConfigurationList = F13BF0AD2D9A81A400B02A04 /* Build configuration list for PBXNativeTarget "STVAI" */;
 			buildPhases = (
 				F13BF0802D9A81A200B02A04 /* Sources */,
 				F13BF0812D9A81A200B02A04 /* Frameworks */,
@@ -123,16 +123,16 @@
 			fileSystemSynchronizedGroups = (
 				F13BF0862D9A81A200B02A04 /* SpeechConverter */,
 			);
-			name = SpeechConverter;
+			name = STVAI;
 			packageProductDependencies = (
 			);
 			productName = SpeechConverter;
-			productReference = F13BF0842D9A81A200B02A04 /* SpeechConverter.app */;
+			productReference = F13BF0842D9A81A200B02A04 /* STVAI.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F13BF0992D9A81A400B02A04 /* SpeechConverterTests */ = {
+		F13BF0992D9A81A400B02A04 /* STVAITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F13BF0B22D9A81A400B02A04 /* Build configuration list for PBXNativeTarget "SpeechConverterTests" */;
+			buildConfigurationList = F13BF0B22D9A81A400B02A04 /* Build configuration list for PBXNativeTarget "STVAITests" */;
 			buildPhases = (
 				F13BF0962D9A81A400B02A04 /* Sources */,
 				F13BF0972D9A81A400B02A04 /* Frameworks */,
@@ -146,16 +146,16 @@
 			fileSystemSynchronizedGroups = (
 				F13BF09D2D9A81A400B02A04 /* SpeechConverterTests */,
 			);
-			name = SpeechConverterTests;
+			name = STVAITests;
 			packageProductDependencies = (
 			);
 			productName = SpeechConverterTests;
-			productReference = F13BF09A2D9A81A400B02A04 /* SpeechConverterTests.xctest */;
+			productReference = F13BF09A2D9A81A400B02A04 /* STVAITests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F13BF0A32D9A81A400B02A04 /* SpeechConverterUITests */ = {
+		F13BF0A32D9A81A400B02A04 /* STVAIUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F13BF0B52D9A81A400B02A04 /* Build configuration list for PBXNativeTarget "SpeechConverterUITests" */;
+			buildConfigurationList = F13BF0B52D9A81A400B02A04 /* Build configuration list for PBXNativeTarget "STVAIUITests" */;
 			buildPhases = (
 				F13BF0A02D9A81A400B02A04 /* Sources */,
 				F13BF0A12D9A81A400B02A04 /* Frameworks */,
@@ -169,11 +169,11 @@
 			fileSystemSynchronizedGroups = (
 				F13BF0A72D9A81A400B02A04 /* SpeechConverterUITests */,
 			);
-			name = SpeechConverterUITests;
+			name = STVAIUITests;
 			packageProductDependencies = (
 			);
 			productName = SpeechConverterUITests;
-			productReference = F13BF0A42D9A81A400B02A04 /* SpeechConverterUITests.xctest */;
+			productReference = F13BF0A42D9A81A400B02A04 /* STVAIUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -199,7 +199,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F13BF07F2D9A81A200B02A04 /* Build configuration list for PBXProject "SpeechConverter" */;
+			buildConfigurationList = F13BF07F2D9A81A200B02A04 /* Build configuration list for PBXProject "STVAI" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -213,9 +213,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F13BF0832D9A81A200B02A04 /* SpeechConverter */,
-				F13BF0992D9A81A400B02A04 /* SpeechConverterTests */,
-				F13BF0A32D9A81A400B02A04 /* SpeechConverterUITests */,
+				F13BF0832D9A81A200B02A04 /* STVAI */,
+				F13BF0992D9A81A400B02A04 /* STVAITests */,
+				F13BF0A32D9A81A400B02A04 /* STVAIUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -271,12 +271,12 @@
 /* Begin PBXTargetDependency section */
 		F13BF09C2D9A81A400B02A04 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F13BF0832D9A81A200B02A04 /* SpeechConverter */;
+			target = F13BF0832D9A81A200B02A04 /* STVAI */;
 			targetProxy = F13BF09B2D9A81A400B02A04 /* PBXContainerItemProxy */;
 		};
 		F13BF0A62D9A81A400B02A04 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F13BF0832D9A81A200B02A04 /* SpeechConverter */;
+			target = F13BF0832D9A81A200B02A04 /* STVAI */;
 			targetProxy = F13BF0A52D9A81A400B02A04 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -294,7 +294,8 @@
 				DEVELOPMENT_TEAM = CKVYZW2R32;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SpeechConverter/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = AIChat;
+				INFOPLIST_KEY_CFBundleDisplayName = Seema_STVAI;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Request access to microphone for speech input";
 				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "We need speech recognition to understand your voice requests";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -327,7 +328,8 @@
 				DEVELOPMENT_TEAM = CKVYZW2R32;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SpeechConverter/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = AIChat;
+				INFOPLIST_KEY_CFBundleDisplayName = Seema_STVAI;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Request access to microphone for speech input";
 				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "We need speech recognition to understand your voice requests";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -487,7 +489,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeechConverter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpeechConverter";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STVAI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/STVAI";
 			};
 			name = Debug;
 		};
@@ -507,7 +509,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeechConverter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpeechConverter";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STVAI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/STVAI";
 			};
 			name = Release;
 		};
@@ -550,7 +552,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F13BF07F2D9A81A200B02A04 /* Build configuration list for PBXProject "SpeechConverter" */ = {
+		F13BF07F2D9A81A200B02A04 /* Build configuration list for PBXProject "STVAI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F13BF0B02D9A81A400B02A04 /* Debug */,
@@ -559,7 +561,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F13BF0AD2D9A81A400B02A04 /* Build configuration list for PBXNativeTarget "SpeechConverter" */ = {
+		F13BF0AD2D9A81A400B02A04 /* Build configuration list for PBXNativeTarget "STVAI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F13BF0AE2D9A81A400B02A04 /* Debug */,
@@ -568,7 +570,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F13BF0B22D9A81A400B02A04 /* Build configuration list for PBXNativeTarget "SpeechConverterTests" */ = {
+		F13BF0B22D9A81A400B02A04 /* Build configuration list for PBXNativeTarget "STVAITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F13BF0B32D9A81A400B02A04 /* Debug */,
@@ -577,7 +579,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F13BF0B52D9A81A400B02A04 /* Build configuration list for PBXNativeTarget "SpeechConverterUITests" */ = {
+		F13BF0B52D9A81A400B02A04 /* Build configuration list for PBXNativeTarget "STVAIUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F13BF0B62D9A81A400B02A04 /* Debug */,

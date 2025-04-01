@@ -28,5 +28,7 @@
 	</dict>
 	<key>OpenAIAPIKey</key>
 	<string>$(OPENAI_API_KEY)</string>
+	<key>CFBundleDisplayName</key>
+	<string>Seema_STVAI</string>
 </dict>
 </plist>
